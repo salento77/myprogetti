@@ -67,10 +67,10 @@ public class Studente{
 			case 0:
 				return getNominativo()+" non ha Opere in prestito";
 				
-			case 1:
+			case 1: //un libro in prestito
 				return getNominativo()+" ha una sola Opera in prestito: "+prestito1.getTitolo();
 				
-			default: // l'unica alternativa è avere due libri in prestito
+			default: // l'unica alternativa Ã¨ avere due libri in prestito
 				return getNominativo()+" ha due Opere in prestito: "+prestito1.getTitolo()+", "+prestito2.getTitolo();
 		}
 	}
