@@ -64,10 +64,10 @@ public class Studente{
 	public String toString() {
 		switch(numeroPrestiti())
 		{
-			case 0:
+			case 0: // non ha un libro in prestito
 				return getNominativo()+" non ha Opere in prestito";
 				
-			case 1:
+			case 1: // ha un libro in prestito
 				return getNominativo()+" ha una sola Opera in prestito: "+prestito1.getTitolo();
 				
 			default: // l'unica alternativa è avere due libri in prestito
