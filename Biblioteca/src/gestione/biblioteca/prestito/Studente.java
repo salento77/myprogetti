@@ -1,5 +1,6 @@
 package gestione.biblioteca.prestito;
 
+
 import gestione.biblioteca.prestito.base.Opera;
 import gestione.biblioteca.prestito.base.OperaPrestabile;
 import gestione.biblioteca.prestito.eccezioni.PrestitoNonEseguibile;
@@ -55,6 +56,7 @@ public class Studente{
 		return prestiti;
 	}
 	
+	// ottengo il nominativo dello studente
 	public String getNominativo()
 	{
 		return nome+" "+cognome;
